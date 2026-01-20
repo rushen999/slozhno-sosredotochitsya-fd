@@ -35,7 +35,7 @@ width: 25px;
 height: 25px;
 border-style: solid;
 border-width: 1px 1px 0 0;
-border-color: var(--decor-color); 
+border-color: var(--decor-color);
 right: 2%;
 top: 2.6%;
 }
@@ -61,13 +61,10 @@ top: 2.6%;
   .rec__container {
   display: grid;
   justify-content: flex-end;
-  margin-right: 9px;
-  margin-top: 2px;
   grid-column-start:  3;
   grid-row-start: 1;
   margin-top: 22px;
   margin-right: 29px;
-
 }
 
 .header__theme-menu {
@@ -153,7 +150,7 @@ top: 2.6%;
   gap: 11px;
 }
 
-.section__title{
+.section__title {
   color: var(--title-color);
   font-family: var(--main-font);
   font-style: Bold;
@@ -166,7 +163,7 @@ top: 2.6%;
 }
 
 
-.section__title-why{
+.section__title-why {
   color: var(--title-color);
   font-family: var(--main-font);
   font-style: Bold;
@@ -178,7 +175,7 @@ top: 2.6%;
   max-width: 315px;
 }
 
-.section__title-advices{
+.section__title-advices {
   color: var(--title-color);
   font-family: var(--main-font);
   font-style: Bold;
@@ -193,7 +190,7 @@ top: 2.6%;
 .section__heading {
   color: var(--title-header-color);
   font-family: var(--main-font);
-  background-color: var(--title-color);
+  background-color: var(--bg-color-text);
   font-style: Bold;
   font-size: 18px;
   font-weight: 700;
@@ -256,7 +253,7 @@ top: 2.6%;
 .section__heading-advices {
   color: var(--title-header-color);
   font-family: var(--main-font);
-  background-color: var(--title-color);
+  background-color: var(--bg-color-text);
   font-style: Regular;
   font-size: 18px;
   font-weight: 400;
@@ -274,7 +271,7 @@ top: 2.6%;
 .section__heading-decor {
   color: var(--title-header-color);
   font-family: var(--main-font);
-  background-color: var(--title-color);
+  background-color: var(--bg-color-text);
   font-style: Bold;
   font-size: 18px;
   font-weight: 700;
@@ -383,7 +380,7 @@ bottom: 5.1%;
     grid-row: 2 / 2;
         margin-left: 20%;
   }
-  .header__theme-menu-list{
+  .header__theme-menu-list {
     display: flex;
     flex-direction: column;
     margin-block: 160%;
@@ -436,7 +433,13 @@ bottom: 5.1%;
 }
 
 @media (width <= 375px) {
-  .header__theme-menu-list{
+  .header::before {
+    bottom: 1.5%;
+  }
+  .header::after{
+    top: 1.5%;
+  }
+  .header__theme-menu-list {
     margin-left: 7%;
     margin-top: 29%;
   }
@@ -447,7 +450,7 @@ bottom: 5.1%;
     margin-top: 12px;
     margin-right: 20px;
   }
-  .content__card-content_why{
+  .content__card-content_why {
     display: grid;
     grid-template-rows: min-content min-content;
     grid-template-columns: none;
@@ -478,7 +481,7 @@ bottom: 5.1%;
   .section__last {
     padding: 0;
   }
-  .section__title{
+  .section__title {
     width: 300px;
   }
   .section__title-advices {
@@ -500,7 +503,7 @@ bottom: 5.1%;
     font-size: 116px;
     margin-bottom: 20px;
   }
-  .section__last::before{
+  .section__last::before {
     bottom: 3%;
     }
 }
