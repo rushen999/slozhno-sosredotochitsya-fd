@@ -24,7 +24,7 @@
   .section__title {
   color: rgba(53, 52, 48, 1);
 }
-  .rec__word{
+  .rec__word {
     color: transparent;
   }
   .rec__word::after {
@@ -44,18 +44,19 @@
   --color-text: rgba(53, 52, 48, 1);
   --subtitle-color: #353430;
   --title-header-color: rgba(53, 52, 48, 1);
-  --color-heading: rgba(255, 194, 230, 1); 
+  --color-heading: rgba(255, 194, 230, 1);
   --main-font: 'IBM Plex Mono', sans-serif;
   --theme-switch-color: rgba(53, 52, 48, 1);
   --decor-color: rgba(53, 52, 48, 1);
   --special-words-color: rgba(255, 141, 203, 1);
   --bg-heading-shadow: rgba(255, 141, 203, 1);
   --footer-shadow: rgba(255, 141, 203, 1);
-  .section__title {
-  color: rgba(53, 52, 48, 1);
 }
-  .rec__container {
-    display: none;
+  .rec__word {
+    color: transparent;
   }
-}
+  .rec__word::after {
+  background-color: transparent;
+  box-shadow: unset;
+  }
 }

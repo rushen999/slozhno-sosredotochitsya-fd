@@ -436,7 +436,7 @@ bottom: 5.1%;
   .header::before {
     bottom: 1.5%;
   }
-  .header::after{
+  .header::after {
     top: 1.5%;
   }
   .header__theme-menu-list {
