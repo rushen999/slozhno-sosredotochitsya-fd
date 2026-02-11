@@ -15,15 +15,12 @@
   --subtitle-color: #353430;
   --title-header-color: rgba(53, 52, 48, 1);
   --color-heading: rgba(255, 194, 230, 1);
-  --main-font: 'IBM Plex Mono', sans-serif;
   --theme-switch-color: rgba(53, 52, 48, 1);
+  --switch-color-hover: rgba(50, 49, 45, 0.4);
   --decor-color: rgba(53, 52, 48, 1);
   --special-words-color: rgba(255, 141, 203, 1);
   --bg-heading-shadow: rgba(255, 141, 203, 1);
-  --footer-shadow: rgba(255, 141, 203, 1);
-  .section__title {
-  color: rgba(53, 52, 48, 1);
-}
+  --footer-shadow: #ff0070;
   .rec__word {
     color: transparent;
   }
@@ -45,8 +42,8 @@
   --subtitle-color: #353430;
   --title-header-color: rgba(53, 52, 48, 1);
   --color-heading: rgba(255, 194, 230, 1);
-  --main-font: 'IBM Plex Mono', sans-serif;
   --theme-switch-color: rgba(53, 52, 48, 1);
+  --switch-color-hover: rgba(50, 49, 45, 0.4);
   --decor-color: rgba(53, 52, 48, 1);
   --special-words-color: rgba(255, 141, 203, 1);
   --bg-heading-shadow: rgba(255, 141, 203, 1);
