@@ -105,7 +105,7 @@ right: 0px;
 .header__theme-menu-button:focus {
 outline: none;
 }
-.header__theme-menu-button:focus-visible{
+.header__theme-menu-button:focus-visible {
   border-bottom: 1px solid var(--theme-switch-color);
 }
 
