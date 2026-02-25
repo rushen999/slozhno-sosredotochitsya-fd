@@ -4,14 +4,12 @@
   --title-color: #ff0070;
   --bg-color: #000028;
   --bg-color-text: #ff0070;
-  --nav-color-focus: #ff0070;
   --color-text: #f1b2ce;
-  --subtitle-color: #353430;
   --title-header-color: #000028;
   --special-words-color: #ff0070;
   --bg-heading-shadow: #ff0070;
   --color-heading: #db00ff;
-  --main-font: 'IBM Plex Mono', sans-serif;
+  --main-font: "IBM Plex Mono", monospace;
   --theme-switch-color: rgba(255, 0, 112, 1);
   --switch-color-hover: rgba(255, 0, 112, 0.4);
   --decor-color: #ff0070;
